@@ -25,6 +25,13 @@ public class Aula01_TPC01{
         maiorElemento(a);
     }
     public static int[] insertOne(int element, int[] a){
+        // verificar se o array esta cheio ou nao, caso n, add element
+        for(int i=0; i<a.length;i++){
+            if(a[i] == 0) {
+                a[i] = element;
+                return a;
+            }
+        }
         // Criar novo vetor, com uma posicao a mais e relacao ao vetor dado
         int[] novoA = new int [a.length + 1];
         System.out.println(" Vetor antes da adicao: ");
