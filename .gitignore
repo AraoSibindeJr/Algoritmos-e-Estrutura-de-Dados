@@ -1,4 +1,5 @@
 ### IntelliJ IDEA ###
+.idea/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -24,7 +25,7 @@ bin/
 
 ### VS Code ###
 .vscode/
-.idea/
+
 
 ### Mac OS ###
 .DS_Store
