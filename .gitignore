@@ -1,5 +1,6 @@
 ### IntelliJ IDEA ###
 .idea/
+Algoritmos e Estrutura de dados.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
