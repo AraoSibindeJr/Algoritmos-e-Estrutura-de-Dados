@@ -20,7 +20,7 @@ public class Ex01 {
 
             if (!shitched)
                 break;
-                end--;
+            end--;
 
             shitched = false;
 
